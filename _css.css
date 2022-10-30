@@ -1,0 +1,43 @@
+/*
+<link rel="stylesheet" href="_css.css" type="text/css">
+    For each folder a page is in, you must use the following to up a level: ../
+*/
+
+/*-Default Properties-*/
+	body,td,th { font-family: Times New Roman; font-size: 14px; background-color:white; color:black; }
+	body {margin-left:10px; margin-right:10px; margin-top:10px; margin-bottom:10px;}
+
+/*-HTML Links Properties-*/
+    a:link {text-decoration: none; color: blue;}
+    a:visited {text-decoration: none; color: blue;}
+    a:hover {text-decoration: none; color: blue;}
+    a:active {text-decoration: none; color: blue;}
+
+/*-Table Styles-*/
+	.linktable{width:200px; height:25px;}
+	.structure{width:200px; height:60px;}
+	/*Commands*/
+		.commands01{width:300px; height:25px;}
+		.commands02{width:200px; height:25px;}
+
+/*-Text-*/
+	/*-Titles-*/
+		.title{font-size:28px; font-weight:bold;}
+	/*-Headers-Main-*/
+		.header01{font-size:16px; font-weight:bold;}
+	/*-Headers-Sub-*/
+		.sub-header01{font-size:13px; font-weight:bold; text-decoration: underline;}
+	/*-Misc-*/
+		.notes{font-size:10px; font-weight:bold;}
+	
+/*-Misc Properties-*/
+	/*-Horizontal Lines-*/
+		hr.horizontal{width:100%; height:50px; background-color: black; float: center;}
+		.hr{width:100%; height:1px; background-color: black; float: center;}
+	
+/* - - Tutorials Section - - */
+	/* - Horizontal Line, Dashed #1 - */
+		.hrd01{border-top: dotted 2px;}
+	/* - Headers - */
+		.header-ts{font-size:18px; font-weight:bold; text-decoration: underline;}
+
